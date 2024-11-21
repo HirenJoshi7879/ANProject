@@ -234,7 +234,7 @@ li.hr span {
     position: absolute;
     pointer-events: none;
     left: 15px;
-    top: -10px;
+    top: -20px;
     padding: 0 5px;
     background: #ebf3f9;
     transition: 0.2s ease all;
@@ -11228,7 +11228,7 @@ textarea#exampleInputComments {
 .search-icon {
     position: absolute;
     top: 0;
-    margin: 10px;
+    margin: 6px;
     right: 0;
 }
 
@@ -16030,4 +16030,8 @@ label.mb-5 {
     background: transparent !important;
     border: 0 !important;
     font-size: 12px !important;
+}
+
+.d-inline-block.box-dropdown-cart .dropdown-toggle::after{
+    display: none;
 }
