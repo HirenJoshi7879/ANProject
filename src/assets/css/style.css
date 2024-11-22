@@ -472,7 +472,7 @@ a:hover {
 }
 
 body {
-    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif !important;
 }
 
 .font-xs-bold {
@@ -2671,8 +2671,9 @@ a.text-brand-3:hover {
     height: auto;
     max-width: 100%;
     width: auto;
-    min-height: 136px;
-    /* vertical-align: middle; */
+    height: 136px;
+    width: 136px;
+    object-fit: cover;
 }
 
 .card-grid-style-3 .card-grid-inner .image-box .label {
@@ -2688,7 +2689,8 @@ a.text-brand-3:hover {
 }
 
 .card-grid-style-3 .card-grid-inner .info-right a:hover {
-    color: #0ba9ed !important;
+    color: #e32c2b !important;
+    text-decoration: none !important;
 }
 
 .card-grid-style-3 .card-grid-inner .info-right a.btn:hover {
@@ -9245,6 +9247,7 @@ a.text-brand-3:hover {
 
 .nav-tabs-product li a:hover {
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover span.btn-wishlist {
@@ -9918,6 +9921,7 @@ a:hover span.btn-compare {
     margin: 10px 0px;
     word-wrap: break-word;
     text-transform: uppercase;
+    color: #002135;
 }
 
 .product-wishlist .product-info {
@@ -11429,7 +11433,7 @@ a.sidebar-li-bg {
 
 .increment-wrapper input {
     display: block;
-    width: 48%;
+    width: 40%;
     padding: 5px;
     height: 35px;
     border: 1px solid #72777d;
@@ -14257,7 +14261,8 @@ h4.cart-product-description.cpointer.color-brand-1 {
 }
 
 #left-align-10 .did-floating-label-content label.did-floating-label {
-    left: 10px !important;
+    left: 30px !important;
+    top: -10px;
 }
 
 .color-111 {
@@ -15231,12 +15236,15 @@ typeahead-container#ngb-typeahead-2 {
 
 .tab-content table {
     width: 50%;
+    margin-top: 16px;
 }
 
 .list-d.contact-details p {
     text-align: justify !important;
 }
-
+.table td, .table th {
+    padding: 4px 4px !important;
+}
 .tab-pane table tr td {
     text-transform: uppercase;
 }
